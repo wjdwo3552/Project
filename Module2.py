@@ -15,7 +15,7 @@ def retrieve_data():
         database='fms'
     )
 
-    query = "SELECT * FROM growth_day_tb"
+    query = "SELECT * FROM water_quality_day_tb"
     result = execute_query(cursor, query)
 
     data_list = []
